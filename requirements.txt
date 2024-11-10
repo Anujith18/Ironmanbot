@@ -12,7 +12,8 @@ pytz
 aiohttp
 cinemagoer
 shortzy
-
+fuzzywuzzy
+python-Levenshtein
 PyLeaves==1.0.2
 cinemagoer
 shortzy
