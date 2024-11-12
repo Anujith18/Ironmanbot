@@ -65,15 +65,15 @@ premium = environ.get('PREMIUM_LOGS', '-1001954496594')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 
 #files link shortnet
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'onepagelink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '1fb1e56aa57d893927b06afea819b4f3419b282d')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrink4cash.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'ed0a1432ce1d8a9902e1624eb7ed79bf6c2e4eb3')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
 # verify link shortner
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1813787686/17")
-VERIFY2_URL = environ.get('VERIFY2_URL', "onepagelink.in")
-VERIFY2_API = environ.get('VERIFY2_API', "1fb1e56aa57d893927b06afea819b4f3419b282d")
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/IronMan_mfilter_bot?start=ZmlsZV9CQUFEQlFBRHdSUUFBcC1Bb1ZYZU90LU04dkNYV1JZRQ")
+VERIFY2_URL = environ.get('VERIFY2_URL', "shrink4cash.in")
+VERIFY2_API = environ.get('VERIFY2_API', "ed0a1432ce1d8a9902e1624eb7ed79bf6c2e4eb3")
 
 # my group
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movie_hab')
