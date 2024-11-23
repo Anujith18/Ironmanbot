@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/a97d39a6aa4a1317d430b.jpg" alt="JK-DEV-PREMIUM-BOT Logo">
+  <img src="[https://graph.org/file/a97d39a6aa4a1317d430b.jpg](https://envs.sh/Kq9.jpg)" alt="MARSEL DEV Logo">
 </p>
 <h1 align="center">
   JK-DEV-PREMIUM-BOT 
