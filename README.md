@@ -179,7 +179,7 @@ python3 bot.py
 <hr>
 
 ## Credits 
-* [![MARSEL DEV](https://img.shields.io/static/v1?label=JKDEVLOPER01&message=Github&color=critical)](https://github.com/marselbotz)
+* [![MARSEL DEV](https://img.shields.io/static/v1?label=marsel_dev01&message=Github&color=critical)](https://github.com/marselbotz)
 
 
 
