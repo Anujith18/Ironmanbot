@@ -154,9 +154,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://swift-mildred-cndpw-f84a7096.koyeb.app/".format(FQDN)
+    URL = "https://a-marselfilter-2.onrender.com/".format(FQDN)
 else:
-    URL = "https://swift-mildred-cndpw-f84a7096.koyeb.app/".format(FQDN)
+    URL = "https://a-marselfilter-2.onrender.com/".format(FQDN)
 REPO_OWNER = "Marsel_Botz"
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
