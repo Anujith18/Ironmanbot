@@ -70,7 +70,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', 'ed0a1432ce1d8a9902e1624eb7ed79bf6c
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
 # verify link shortner
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/marselhowto/33")
 VERIFY2_URL = environ.get('VERIFY2_URL', "shrink4cash.in")
 VERIFY2_API = environ.get('VERIFY2_API', "ed0a1432ce1d8a9902e1624eb7ed79bf6c2e4eb3")
