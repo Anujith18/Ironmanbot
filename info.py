@@ -70,10 +70,10 @@ SHORTLINK_API = environ.get('SHORTLINK_API', 'd69816f24d31e83c6ea9766452c39ee36a
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
 # verify link shortner
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/marselhowto/26")
-VERIFY2_URL = environ.get('VERIFY2_URL', "link4earn.com")
-VERIFY2_API = environ.get('VERIFY2_API', "d69816f24d31e83c6ea9766452c39ee36a0901c5")
+VERIFY2_URL = environ.get('VERIFY2_URL', "https://shrinkme.io/")
+VERIFY2_API = environ.get('VERIFY2_API', "7eb0b3c02552b4d6f69c2a05c8d9b40870cef973")
 
 # my group
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movie_hab')
