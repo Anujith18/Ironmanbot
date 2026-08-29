@@ -71,7 +71,7 @@ IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
 # verify link shortner
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/marselhowto/26")
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/howtonetd/36")
 VERIFY2_URL = environ.get('VERIFY2_URL', "shrinkme.io")
 VERIFY2_API = environ.get('VERIFY2_API', "7eb0b3c02552b4d6f69c2a05c8d9b40870cef973")
 
