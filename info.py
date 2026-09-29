@@ -34,9 +34,9 @@ USERS_COUNT = int(environ.get('USERS_COUNT', "20")) # Set Referel User Count
 INVITED_USER_TRAIL = int(environ.get('INVITED_USER_TRAIL', "86400")) #set in seconds, free trail invites users in 1 day, 
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "marsel_dev") # widout 👉 @
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1727225499').split()]
+OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "Anujith1238") # widout 👉 @
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002015288592').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '2109732446').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -55,9 +55,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'onepagelink.in'))
-STREAM_API = (environ.get('STREAM_API', '1fb1e56aa57d893927b06afea819b4f3419b282d'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/MarselHowTo/17'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'https://linkshortify.com'))
+STREAM_API = (environ.get('STREAM_API', '927f420bfcbeda36287288f7e98110467feedbef'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_or_Open_Link'))
 STREAM_LINK_MODE = is_enabled((environ.get('STREAM_LINK_MODE', "False")), False)
 
 #premium Users Satuts
@@ -65,32 +65,32 @@ premium = environ.get('PREMIUM_LOGS', '')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 
 #files link shortnet
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrinkme.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', '7eb0b3c02552b4d6f69c2a05c8d9b40870cef973')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://linkshortify.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '927f420bfcbeda36287288f7e98110467feedbef')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
 # verify link shortner
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/howtonetd/36")
-VERIFY2_URL = environ.get('VERIFY2_URL', "shrinkme.io")
-VERIFY2_API = environ.get('VERIFY2_API', "7eb0b3c02552b4d6f69c2a05c8d9b40870cef973")
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "")
+VERIFY2_URL = environ.get('VERIFY2_URL', "")
+VERIFY2_API = environ.get('VERIFY2_API', "")
 
 # my group
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movie_hab')
-GRO_ONE = environ.get('GRO_ONE', 'https://t.me/+EGp5_sDOKVk2YmU1')
-GRO_TWO = environ.get('GRO_TWO', 'https://t.me/+jOq2NmDDuBk0NmNl')
-GRO_MASTI = environ.get('GRO_MASTI', 'https://t.me/+LX0Y1cggV3QwYjVl')
-SUPPORT_GRP = environ.get('SUPPORT_GRP', 'https://t.me/marselsupport')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/AlluTvSerialGroup')
+GRO_ONE = environ.get('GRO_ONE', 'https://t.me/AlluTvSerials')
+GRO_TWO = environ.get('GRO_TWO', 'https://t.me/AlluTvSerials')
+GRO_MASTI = environ.get('GRO_MASTI', 'https://t.me/AlluTvSerials')
+SUPPORT_GRP = environ.get('SUPPORT_GRP', 'https://t.me/AllMalayalamSupportGroup')
 #my channel
-MAIN_CHAN = environ.get('MAIN_CHAN', 'https://t.me/marselmovie')
-CHAN_ONE = environ.get('CHAN_ONE', 'https://t.me/+rdYHym5vFR40Nzg1')
-CHAN_TWO = environ.get('CHAN_TWO', 'https://t.me/+LFLPy7jYieliYjJl')
+MAIN_CHAN = environ.get('MAIN_CHAN', 'https://t.me/AlluTvSerials')
+CHAN_ONE = environ.get('CHAN_ONE', 'https://t.me/AllMalayalamSerials12')
+CHAN_TWO = environ.get('CHAN_TWO', 'https://t.me/AllMalayalamSerials12')
 CHAN_THREE = environ.get('CHAN_THREE', 'https://t.me/+4T9I29l3LwY1OWY1')
-CHAN_FOUR = environ.get('CHAN_FOUR', 'https://t.me/+_E3bK7Huftc1ZTQ1')
-MARVEL_CHAN = environ.get('MARVEL_CHAN', 'https://t.me/+fkrgRH_Y1OU1NTZl')
-MOVIE_CHAN = environ.get('MOVIE_CHAN', 'https://t.me/marselmovie')
-BOT_CHAN = environ.get('BOT_CHAN', 'https://t.me/marselbots')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/marselupdates')
+CHAN_FOUR = environ.get('CHAN_FOUR', 'https://t.me/AlluTvSerials')
+MARVEL_CHAN = environ.get('MARVEL_CHAN', 'https://t.me/AllMalayalamSerials12')
+MOVIE_CHAN = environ.get('MOVIE_CHAN', 'https://t.me/AllMalayalamSerials12')
+BOT_CHAN = environ.get('BOT_CHAN', 'https://t.me/Anujith1_bot')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AlluTvSerials')
 
        
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001998895377').split()]
