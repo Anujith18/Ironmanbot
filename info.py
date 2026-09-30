@@ -26,7 +26,7 @@ NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/c6042704a1bc0a2b52996.
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/12adf3a7451bf2a72b454.jpg'))
-CODE = (environ.get('CODE', 'https://graph.org/file/e932f2d3753a2cdf798d0.jpg')) # Scanner Code image 
+CODE = (environ.get('CODE', 'h')) # Scanner Code image 
 
 #refer time, or user count
 REFERAL_USER_TIME = int(environ.get('REFERAL_USER_TIME', "2592000")) # set in seconds | already seted 1 month premium
