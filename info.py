@@ -55,7 +55,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'https://linkshortify.com'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'linkshortify.com'))
 STREAM_API = (environ.get('STREAM_API', '927f420bfcbeda36287288f7e98110467feedbef'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_or_Open_Link'))
 STREAM_LINK_MODE = is_enabled((environ.get('STREAM_LINK_MODE', "False")), False)
@@ -65,7 +65,7 @@ premium = environ.get('PREMIUM_LOGS', '')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 
 #files link shortnet
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://linkshortify.com')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '927f420bfcbeda36287288f7e98110467feedbef')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
