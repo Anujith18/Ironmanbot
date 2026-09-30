@@ -71,9 +71,9 @@ IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
 # verify link shortner
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "")
-VERIFY2_URL = environ.get('VERIFY2_URL', "")
-VERIFY2_API = environ.get('VERIFY2_API', "")
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/How_or_Open_Link")
+VERIFY2_URL = environ.get('VERIFY2_URL', "linkshortify.com")
+VERIFY2_API = environ.get('VERIFY2_API', "927f420bfcbeda36287288f7e98110467feedbef")
 
 # my group
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/AlluTvSerialGroup')
